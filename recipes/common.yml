@@ -43,6 +43,7 @@ modules:
       - starship
       - opam
       - java-latest-openjdk-devel
+      - rlwrap
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
