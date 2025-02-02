@@ -41,6 +41,9 @@ modules:
       - NetworkManager-tui
       - micro
       - starship
+      - openjdk-devel
+      - opam
+      - rustup
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
