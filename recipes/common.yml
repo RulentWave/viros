@@ -44,6 +44,7 @@ modules:
       - opam
       - java-latest-openjdk-devel
       - rlwrap
+      - nu
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
