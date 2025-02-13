@@ -45,6 +45,7 @@ modules:
       - java-latest-openjdk-devel
       - rlwrap
       - nu
+      - kitty
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
