@@ -46,6 +46,7 @@ modules:
       - rlwrap
       - nu
       - kitty
+      - bat
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
