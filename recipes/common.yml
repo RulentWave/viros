@@ -47,6 +47,7 @@ modules:
       - nu
       - kitty
       - bat
+      - eza
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
