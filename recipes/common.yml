@@ -20,6 +20,8 @@ modules:
       - btop
       - black
       - python3-isort
+      - yapf
+      - clang-format
       - arm-none-eabi-binutils-cs
       - arm-none-eabi-gcc-cs
       - arm-none-eabi-gcc-cs-c++
