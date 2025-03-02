@@ -50,6 +50,7 @@ modules:
       - kitty
       - bat
       - eza
+      - python3-ramalama
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
