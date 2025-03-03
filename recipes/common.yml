@@ -51,6 +51,7 @@ modules:
       - bat
       - eza
       - python3-ramalama
+      - uutils-coreutils
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
