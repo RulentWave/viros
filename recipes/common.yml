@@ -20,8 +20,7 @@ modules:
       - btop
       - black
       - python3-isort
-      - yapf
-      - clang-format
+      - python3-yapf
       - arm-none-eabi-binutils-cs
       - arm-none-eabi-gcc-cs
       - arm-none-eabi-gcc-cs-c++
@@ -32,6 +31,7 @@ modules:
       - avr-libc
       - avrdude
       - clang
+      - clang-tools-extra
       #- dfu-programmer
       - dfu-util
       - kernel-devel
