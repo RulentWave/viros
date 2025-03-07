@@ -47,6 +47,7 @@ modules:
       - java-latest-openjdk-devel
       - rlwrap
       - nu
+      - zoxide
       - kitty
       - bat
       - eza
