@@ -5,7 +5,7 @@ modules:
     install:
       - neovim
       - fping
-      - fd
+      - fd-find
       - gamemode
       - duperemove
       - steam-devices
