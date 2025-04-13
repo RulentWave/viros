@@ -51,7 +51,6 @@ modules:
       - zoxide
       - kitty
       - bat
-      - eza
       - python3-ramalama
       - uutils-coreutils
       - virt-manager
