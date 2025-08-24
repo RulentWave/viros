@@ -55,6 +55,7 @@ modules:
       - uutils-coreutils
       - virt-manager
       - gnome-boxes
+      - butane
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
