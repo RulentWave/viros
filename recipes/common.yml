@@ -57,6 +57,7 @@ modules:
       - gnome-boxes
       - butane
       - wireshark
+      - gnupg2-scdaemon
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
