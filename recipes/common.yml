@@ -38,6 +38,7 @@ modules:
       - kernel-devel
       - zsh
       - mpv
+      - mpv-mpris
       - android-tools
       - mame-tools
       - yt-dlp
