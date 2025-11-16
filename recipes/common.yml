@@ -59,6 +59,7 @@ modules:
       - butane
       - wireshark
       - gnupg2-scdaemon
+      - chezmoi
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
