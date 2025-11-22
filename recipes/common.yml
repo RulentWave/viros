@@ -61,32 +61,33 @@ modules:
       - gnupg2-scdaemon
       - chezmoi
       - helix
- #     - mutter
- #     - mutter-common
- #     - gnome-control-center
- #     - gnome-control-center-filesystem
- #     - xorg-x11-server-Xwayland
+      - luarocks
+    #     - mutter
+    #     - mutter-common
+    #     - gnome-control-center
+    #     - gnome-control-center-filesystem
+    #     - xorg-x11-server-Xwayland
 
-      # - micro
-      # - starship
+    # - micro
+    # - starship
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
- #     - vim-enhanced # don't actually do this lol
-#      - vim-minimal
- #     - mutter
- #     - mutter-common
- #     - gnome-control-center
- #     - gnome-control-center-filesystem
- #     - xorg-x11-server-Xwayland
+  #     - vim-enhanced # don't actually do this lol
+  #      - vim-minimal
+  #     - mutter
+  #     - mutter-common
+  #     - gnome-control-center
+  #     - gnome-control-center-filesystem
+  #     - xorg-x11-server-Xwayland
   - type: default-flatpaks
     configurations:
       - notify: true # Send notification after install/uninstall is finished (true/false)
         scope: system
-      # If no repo information is specified, Flathub will be used by default
-      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      # repo-name: flathub
-      # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+        # If no repo information is specified, Flathub will be used by default
+        # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+        # repo-name: flathub
+        # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
         install:
           - com.brave.Browser
           - org.libreoffice.LibreOffice
@@ -97,7 +98,7 @@ modules:
         # only normal flatpak applications are (like Floorp Lightning web browser in this example).
         # Installing different branches of the same Flatpak is not supported.
       #      remove:
-        # - org.gnome.eog
+      # - org.gnome.eog
   - type: fonts
     fonts:
       nerd-fonts:
