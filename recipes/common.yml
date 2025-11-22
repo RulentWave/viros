@@ -60,6 +60,7 @@ modules:
       - wireshark
       - gnupg2-scdaemon
       - chezmoi
+      - helix
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
